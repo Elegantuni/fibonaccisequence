@@ -13,7 +13,7 @@ count = int(sys.argv[1])
 
 if count < 0:
     print(sys.argv[0], "<natural number>")
-    sys.exitQ(1)
+    sys.exit(1)
 
 thecount = 2 
 
