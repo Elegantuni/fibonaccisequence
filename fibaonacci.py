@@ -3,7 +3,7 @@
 import sys
 
 if len(sys.argv) < 2:
-    print(sys.argv[0], "<counting number>")
+    print(sys.argv[0], "<natural number>")
     sys.exit(1)
 
 first = 0
