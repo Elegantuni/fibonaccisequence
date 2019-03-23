@@ -10,6 +10,11 @@ first = 0
 second = 1
 thesum = first + second
 count = int(sys.argv[1])
+
+if count < 0:
+    print(sys.argv[0], "<natural number>")
+    sys.exitQ(1)
+
 thecount = 2 
 
 if count == 0:
