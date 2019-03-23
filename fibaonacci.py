@@ -2,6 +2,10 @@
 
 import sys
 
+if len(sys.argv) < 2:
+    print(sys.argv[0], "<number>")
+    sys.exit(1)
+
 first = 0
 second = 1
 thesum = first + second
